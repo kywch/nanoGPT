@@ -1,0 +1,8 @@
+tqdm
+numpy<2
+torch
+tiktoken
+transformers
+datasets
+requests
+wandb
