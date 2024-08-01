@@ -46,7 +46,6 @@ test() {
             -e WAYLAND_DISPLAY \
             -e XDG_RUNTIME_DIR \
             -e PULSE_SERVER \
-            -p 8000:8000 \
             ${username}/${image}:${tag} bash
     fi
     # Attach to the running container
